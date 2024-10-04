@@ -13,33 +13,33 @@
 
             <center><h1 class="h1">position & z-index</h1></center>
 <h2 class="h2">CSS position property</h2>
-<div class="flexbox1"><p class="p1">the position poperty specifies the type of positioning method used for an
+<div class="flexbox1"><p class="p1"> The position property specifies the type of positioning method used for an
 element.</p>
-<ol class="ol1">there are five different position values:
+<ol class="ol1"> There are five different position values:
 <li>static</li><li>reletive</li><li>fixed</li><li>absolute</li><li>sticky</li></ol>
-<p class="p2">elements are then positioned using the top, bottom, left, and right properties. however these
-properties will not work unless the position property is set first. they also work differently depanding
+<p class="p2">elements are then positioned using the top, bottom, left, and right properties. however, these
+properties will not work unless the position property is set first. they also work differently depending
 on the position value.</p></div>
 
 <h2 class="h2">position static</h2>
 <div class="flexbox1">
 <p class="p1">HTML elements are positioned static by default.<br>
-static positioned elements are not affected by the top,bottom,left,and right properties.<br>
-an element with position:static:is not positioned in any spacial way. it is always positioned according to
+statically positioned elements are not affected by the top, bottom, left, and right properties.<br>
+an element with position:static: is not positioned in any special way. it is always positioned according to
 the normal flow of the page:</p>
 </div>
 <h2 class="h2">position relative</h2>
 <div class="relative">
-    <p class="p1">an element with position: relative is positioned relative to its normal
+    <p class="p1"> An element with position: relative is positioned relative to its normal
 position.<br>
-setting the top,right,bottom,and left properties of a relatively positioned element will cause it to be
-adjusted away form its normal positon.<br>
-other content wil not be adjusted to fit into any gap left by the element.</p>
+setting the top, right, bottom, and left properties of a relatively positioned element will cause it to be
+adjusted away from its normal position.<br>
+other content will not be adjusted to fit into any gap left by the element.</p>
 <h3>example:</h3>
 <p class="p2">div.relative{position: relative: left: 30px}</p></div>
 <h2 class="h2">position fixed</h2>
 <div class="relative"><p class="p1"> an element with position fixed is positioned relative to the 
-viewprot which meains it always stays in the same place even it hte page is scrolled. the top,righ,
+viewprot which means it always stays in the same place even if the page is scrolled. the top, right,
 bottom and left properties are used to position the element.<br>
 a fixed element does not leave a gap in the page where it would normally have been located.</p>
 <h3>example</h3>
@@ -47,29 +47,29 @@ a fixed element does not leave a gap in the page where it would normally have be
 <div class="fixed"><h3 class="h3">my name is ishaq khan rind<br>
 example of fixed</h3></div>
 <h2 class="h2">position absolute</h2>
-<div class="parant"><p class="para1">an element with position:absolute is positioned relative to the
-nearest positioned ancestor(instead of positioned relative to the viewport.like fixed). </p>
-<div class="relative1"><p class="para2">however if and absolute positioned element has no positioned
+<div class="parent"><p class="para1"> An element with position: absolute is positioned relative to the
+nearest positioned ancestor(instead of positioned relative to the viewport. like fixed). </p>
+<div class="relative1"><p class="para2">however if an absolute positioned element has no positioned
 ancestors. it uses the document body. and moves along with page scrolling.</p></div>
-<div class="child"><p class="para3">note: absolute positioned element will remodved form the normal flow.
+<div class="child"><p class="para3"> Note: the positioned element will removed from the normal flow.
 and overlapge elements.</p>
 <h4 class="head3">example:</h4>
 <p class="para4">.parent{position: relative: width: 200px; height: 200px}<br>
 .child{position absolute: top:0; left: 0;} </p></div></div>
 <h2 class="h2">position sticky</h2>
-<div class="sticky"><p class="para5">an element with position sticky is positioned based on the user's scroll
+<div class="sticky"><p class="para5"> An element with position sticky is positioned based on the user's scroll
 position.</p>
-<p class="para6">a sticky element toggles between relative and fixed. depanding on the scroll position.
-it is positioned relative until a given offset position is met in the viewport. tnen it sticks in
+<p class="para6"> A sticky element toggles between relative and fixed. depending on the scroll position.
+it is positioned relative until a given offset position is met in the viewport. then it sticks in
 place(like position fixed).</p>
 <h4 class="h4">example:</h4>
 <p class="para7">nav{position:sticky;<br>
 top:0;} </p></div>
 <h2 class="h2">z-index</h2>
-<div class="z-index"><p class="para5">when elements are positioned they cn overlap other elements.<br>
+<div class="z-index"><p class="para5">when elements are positioned they can overlap other elements.<br>
 the z-index property specifies the stack order of an element(which element should be placed in front of,
 or behind. the others).</p>
-<p class="para6">an element can have a positive or negative stack order.</p>
+<p class="para6"> An element can have a positive or negative stack order.</p>
 <h4 class="h4">example:</h4>
 <p class="para7">.box{position:relative:<br>
 z-index:1;} </p></div>
