@@ -1,0 +1,63 @@
+.container-fluid{background-color:lightskyblue;
+color:black;
+background-image: url(../assest/laptop3.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+font-size: normal;
+font-weight:normal;
+font-variant: normal;
+word-spacing: 2px;
+letter-spacing: 2px;
+margin: 0 10px;
+padding: 20px;}
+h1{color: deeppink;
+font-size:xx-large;
+text-transform: capitalize;
+text-shadow: 3px 3px blue;
+max-width: 700px;
+min-width: auto;
+margin: 30px 50px;}
+h2,h3{color: blue;
+text-transform: capitalize;
+border: 2px;
+max-width: 800px;
+min-width: auto;
+margin: 30px 2rem;}
+p{text-indent: 2rem; font-weight:normal;
+border: 2px;
+max-width: 900px;
+min-width: auto;
+margin: 30px auto;
+font-size:normal;}
+fieldset{background-color: aquamarine;
+border: 2px;
+max-width: 600px;
+min-width: auto;
+margin: 30px auto;
+padding: 10px;}
+.link:hover{opacity: 1.0; color:white;}
+.link{border-radius: 10px;
+    outline: solid green;
+width: auto;
+text-decoration: wavy;
+opacity: 0.5;
+padding: 3px;
+margin:auto;background-color: cadetblue;color:black;}
+.ex{font-size: x-large;}
+.para{color: red;}
+#flex{border: 2px;
+max-width: 70%;
+min-width: auto;
+margin: 2px auto;
+color: red;
+display: flex;
+flex: row;
+flex-wrap: wrap;}
+h3{border: 2px;
+    width: 150px;
+    margin: 2px 10px;}
+p.p1{border: 2px;
+width: 200px;
+margin: 2px 30px;}
+*{font-family:Georgia, 'Times New Roman', Times, serif;}

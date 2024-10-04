@@ -1,0 +1,267 @@
+<!DOCTYPE html><html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head><title>CSS Complete Course</title>
+<link rel="stylesheet" href="./css.css"/></head>
+<body>
+    <div class="container-fluid">
+    <center><h1>HTML Chapter List </h1></center>
+<fieldset><ul style="color: blue;">
+<li>Chapter1:setup & html (introduction) </li><br>
+<li>Chapter2: HTML Text tags</li><br>
+<li>Chapter3: Lists (ul and ol)</li><br>
+<li>CHapter4: Links</li><br>
+<li>Chapter5: Images</li><br>
+<li>Chapter6: Tables(most Important)</li><br>
+<li>Chapter7: Forms (most Important)</li><br>
+<li>Chapter8: Html5 (video and audio)</li><br>
+<li>Chapter9: Attributes, id and class difference</li><br>
+<li>Chapter10: Layout method(with practical)</li></ul></fieldset>
+<h1>CSS Chapter List</h1>
+<fieldset><ul style="color: blue;">
+<li>chapter1: Introducing to CSS(CSS use case & its types)</li><br>
+<li>Chapter2; Color and background</li><br>
+<li>Chapter3: Fonts typography</li><br>
+<li>Chapter4: Text Styles</li><br>
+<li>Chapter5: Padding and margins(important)</li><br>
+<li>chapter6: Width & Height,image CSS (important)</li><br>
+<li>Chapter7: Flexbox or grid(important)</li><br>
+<li>Chapter8: Boxes(Box modal) a card or something useful (important)</li><br>
+<li>Chapter9: Border, outline, opacity, z-indix</li><br>
+<li>Chapter10: Positions(important)</li></ul></fieldset>
+<h1>CSS Introduction</h1>
+<p> CSS is the langauge we use to style a webpage.</p>
+<h2>What is CSS ?</h2>
+<fieldset><ul style="font-size: larger;">
+<li>SCC stands for Cascading Style Sheets</li><br>
+<li>CSS describe how HTML elements are to be displayed on sreen, paper or in other media.</li><br>
+<li>CSS saves a lot of work. it can control the layout of multiple web pages all at once web page.</li><br>
+<li>External stylesheets are stored in CSS files</li></ul></fieldset>
+<h2>Why Use CSS?</h2>
+<P>CSS is used to define styles for your web pages, including the design. layout and variations in dsiplay
+for different devices and screen sizes.</P>
+<h2>CSS Saves a Lot of Work!</h2>
+<p>The style definations are normally saved in extarnal css files. with an axternal stylesheet file.
+you can change the look of an entire webiste by changing just one file! </p>
+<h2>How to add CSS</h2>
+<p>CSS is the language we use to style a web page.</p>
+<h2>CSS syntex</h2>
+<fieldset><ul>a css rule-set consists of a selector and a declaration block:
+<li>the selector points to the html element you want to style.</li>
+<li>the declaration block contains one or more declarations separated by semicolons.</li>
+<li>each declaration includes a css property name and a value, separated by a colon.</li>
+<li>multiple css declarations are separated with semicolons, and declaration block are surrounded by curly braces.</li></ul></fieldset>
+<h2>css selectors</h2>
+<fieldset><ul>we can divide css selectors into five categories:<br><br>
+<li>simple selectors (select elements based on name, id, and class) </li>
+<li>combinator selector(select elements based on a specific relationship between them) </li>
+<li>pseudo-class selector(select elements based on a certain state) </li>
+<li>pseudo-elements selectors(select and style a part of an element) </li>
+<li>Attribute selectors (select elements based on an attribute or attribute value) </li></ul></fieldset>
+<h2>the css element selector</h2>
+<p>the element selector select html elements based on the element name.<br>
+<span class="ex">example</span><br>
+<span class="para">p{text-align:center;<br>
+color:red}</span> </p>
+<h2>the css id selector</h2>
+<p>the id selector uses the id attribute of an html element to select a specific element.<br>
+the id of an element is unique within a page, so the id selector is used to select one unique element!<br>
+to select an element with a specific id , write a hash(#) character, followd by the id of the element.<br>
+<span class="ex">example</span><br>
+<span class="para">#someid{text-align: center;<br>
+color:red;} </span> </p>
+<h2>the css class selector</h2>
+<p>the class selector selects html elements with a specific class attribute.<br>
+to select elements with a spacific class, write a period (.) character, followed by the class name.<br>
+you can also specify that only specific html elements should be affected by a class.<br></p>
+<div id="flex"><h3>example</h3>
+<p class="p1">.someclass{
+text align:center;
+color: red;} </p>
+<p class="p1">p.someclass{
+color; red;} </p></div> 
+<h2>the css universal selector</h2>
+<p>the universal slector{*} select all html elements on the page. <br>
+<span class="ex">example</span>
+<span class="para">*{text-align: center;<br>
+color: red;} </span></p>
+<h2>the css grouping selector</h2>
+<p>the grouping selector selects all the html elements with the same style definations.<br>
+look at the following css code(the h1, h2, and p elements have the same style definations)<br>
+<span class="ex">example</span><br>
+<span class="para">H1,h2,p{text-align:center;<br>
+colorred;}</span> </p>
+<h2>Three Ways to insert CSS</h2>
+<fieldset><ol>There are three ways of inserting a style sheet:
+<li>External CSS</li><br>
+<li>INternal CSS</li><br>
+<li>Inline CSS</li><br></ol></fieldset>
+<h1>Color and background</h1>
+<h2> CSS Colors</h2>
+<p>Colors are specified using predefined color names. or RGB, HEX, HSL, RGBA, HSLA values</p>
+<h2>CSS Color Names</h2>
+<p>In CSS a color can be specified by using a predifined color name:<br>
+Tomato, Orange, DodgerBlue, mediumSeaGReen, Gray, Slate, Blue, violet, light, gray etc</p>
+<h2>CSS RGB Colors</h2>
+<h3>RGB Value</h3>
+<p>in CSS a color can be specified as an RGB value,using this formula:<br>
+Rgb(red,green,blue)<br>
+each parameter (red,green and blue) defines the intensity of the color between 0 and 255.<br>
+for axample: rgb(255.0.0) is displayed as red. because red is set to its highest value(255) and the others are
+set to 0. to display black .set all color parameter like this rgb(0.0.0)<br> to display white set all color
+parameter 255 like this rgb(255.255.255)</p>
+<h2>RGBA Value</h2>
+<p>RGBA color values are an exetension of RGB color values with an alpha channel .
+which specifies the opacity for a color an RGBA color value is specified with:<br>
+rgba(red,green,blue,alpha)<br>
+the alpha parameter is a numbe between 0.0(full tranparent) and 1.0(not transparent at all)<br>
+&lt;h1&gt;make transparent colors with rgba&lt;/h1&gt;<br>
+&lt;h2 style="background-color:rgba(255.99.71.0)</p>
+<h2>CSS HEX Colors</h2>
+<p>a hexadecimal color is specified with #rrggbb. where the rr(red)gg(green)bb(blue).hexadecimal
+integers specify the components of the color.</p>
+<h3 style="color:#ff0000";>HEX Value</h3>
+<p>#rrggbb<br>
+where rr(red)gg(green)bb(blue) are hexadecimal values between 00 and rr(same as decimal 0-255).
+for example #ff0000 is displayed as red became red is set to its highest value (ff) adn the other set to
+the lowest value(00) .<br>
+to display black .set all values to 00 .like this #0000.to display white set all values to ff.like this #ffff</p>
+<h2>background-color</h2>
+<p>you can set the background color for html elements.<br>
+<h2>CSS backgrounds</h2><p>
+the css background properties are used to add background effects for elements.
+&lt;h1 style="background-color:dodgerblack:"&gt;hello world<.h1></p>
+<fieldset><ul>
+<li>background-color</li><br>
+<li>background-image</li><br>
+<li>background-repeat</li><br>
+<li>background-attachment</li><br>
+<li>background-position</li><br>
+<li>background(shorthand property)</li><br></ul></fieldset>
+<h2>CSS background-color</h2>
+<p>the background-color property specifkes the background color of an element.<br>
+example<br>
+the background color of a page is set like this:<br>
+body {background-color:lightblue;) <br>
+with css a color is most often specified by a valid color name like "red"<br>
+a hex value like "#ff0000"<br>
+an rgb value like "rgb(255.0.0)</p>
+<h2>CSS background Image</h2>
+<p>the background image property specifies an image to use asthe background of an element.<br>
+by default the image is repeated so it covers the entire element.<br>example<br>
+set the background image for a page: body{background-image: url"paper.jpg"}</p>
+<h2>CSS background Image Repeat</h2>
+<p>by default, the background image property repeats an image both horizontally and vertically.
+some images should be repeated on horizontally and vertically.<br>
+Example: body{background-image: url"flower.jpg <br> 
+background-repeat: repeat x}</p>
+<h2>CSS background-position</h2>
+<p>the background-position property is used to specify the position of the background image.<br>
+Example: postion the background image in the top right corner:<br>
+Body{background-image: url("img-tree.png")<br>
+background-repeat: no repeat;<br>
+background-position: right top;}</p>
+<h2>CSS background-attachment</h2>
+<p>the background-attachment property specifies whether the background image should scroll or be 
+fixed will not scroll with the rest of the page.<br>
+Example: specify that the background image should be fixed:<br>
+body{background-image: url("img-tree.png")<br>
+background-repeat: no repeat;<br>
+background-position: right top;
+background-attachment: fixed;}</p>
+<h2>CSS background shorthand </h2>
+<p>to shorten the code. it is alos posible to specify all the background properties in one simple property.
+this is called shorthand property. instead of writing.<br>
+body{/*background color #ffffff;<br>
+background-image: url(img-tree.png):<br>
+background-repeat: no repeat;<br>
+background-position: right top;*/
+background: red url(../html/assets/flower.jpg) top right no repeated fixed}</p>
+<h1>Fonts typography</h1>
+<h2>CSS Fonts</h2>
+<p>Choosing the right font for your website is important!</p>
+<h2>The CSS font-family property</h2>
+<p>in css we use the font family property to specify the font of a text<br>
+Example:<br>
+specify some different fonts for three paragraphs:<br>
+.p1(font-family:"times new roman"thimes,serif;)<br>
+.p2{font-family: arial,helvetica,sans-serial}<br>
+.p3{font-family: "lucida,console"."console new".monospace;}</p>
+<a class="link" href="https://w3schools.com/css/css_font.asp">w3school css example</a><br><br>
+<a class="link" href="https://fonts.google.com">Google Fonts</a>
+<h2>CSS Font Style</h2>
+<p>the font style property is mostly used to specify italic text.<br>
+this property has three values:<br>
+Example:<br>
+p.normal{font-style:normal;}<br>
+p.italic {font style: italic}<br>
+p.oblique{font-style:oblique;}</p>
+<h2>Font Weight</h2>
+<p>the font-weight property specifies the weight of a font.<br>
+Example:<br>
+p.normal{font-weight:normal;}<br>
+p.thick{font-wieght:bold}</p>
+<h2>Font Variant</h2>
+<p>the font variant property specifies whether or not a text should be displayed in a small-caps font.<br>
+in a small caps font. all lowercase letters are converted to uppercase letters,however, the converted
+uppercase letters,appears in a smaller font size than the original uppercase letters in the text.<br>
+Example:<br>
+p.normal{font-variant:normal;}<br>
+p.small{font-variant:small-caps;}</p>
+<h2>CSS font Size</h2>
+<p>the font size property sets the size of the text. being able to manage the text size is important
+in web design. however, you should not use fon size .adjusmtments to make paragraphs.look like headings.
+or headings look like paragraphs.<br>
+always use the proper HTML page like &lt;h1&gt;..&lt;h6&gt;for headings and &lt;p&gt; for paragraphs</p>
+<h2>Set Font Size With Pixels</h2>
+<p>setting the text size with pixels gives you full control over the text size:<br>
+Example:<br>
+h1{font size:40px;}<br>
+h2{font size:30px;}<br>
+p{font size:14px;}</p>
+<h2>Set Font Size With Em</h2>
+<p>to allow users to resize the text (in the browser menu).manu developers use em instead of pixels<br>
+1em is equal to the current font size. the default text size in browser is 16px. so, the defaul 
+size of 1em is 16px.<br>
+the size can be calculated from pixels to em using this formula:pixels/16=em<br>
+Example:<br>
+h1{font size:2.5em:/*30px16=2.5em;}<br>
+h2{font size:1.875em:/*30px/16=1.875em;}<br>
+p{font size;0.875em:/*14px/16=0.875em;}</p>
+<h2 style="font-size:5vw;">Responsive Font Size</h2>
+<p>the text size can be set with a vw uhit, which means the "viewport width".<br>
+that way the text size will follow the size of the browser window:<br>
+Example:<br>
+&lt;h1 style="font-size:5vw"&gt;hello world&lt;/h1&gt;</p>
+<h2>CSS Google Fonts</h2>
+<p>example:,<br>
+here, we want to use a font named "sofia" from google fonts:<br>
+&lt;head&gt;<br>
+&lt;link rel="https://fonts.googleapis.com/css?family=sofia"&gt;
+&lt;style&gt;<Br>
+body{font family:"sofia".sans-serf}&lt;/style&gt;&lt;/head&gt;</p>
+<h2>Use multiple Google Fonts</h2>
+<p>to use multiple google fonts. just seprate the font names with a pipe characters like this:<br>
+Example:<br>
+request multiple fonts:<br>
+&lt;head&gt;<br>
+&lt;link rel="stylesheet"<br>
+href="https://fonts.googleapis.com/css?family=audiowide|sofia|triong"&gt;<br>
+&lt;style&gt;<br>
+h1.a{font family:"audiowide".sens-serf;}<br>
+h1.b{font family: "sofia",sans-serf;}<br>
+&lt;style&gt;&lt;/head&gt;</p>
+<h2>CSS Font Property</h2>
+<p>to shorten the,code. it is also possible to specify all the andividual font properties in on
+ property. he font property is a shorthand property for:<br></p>
+<fieldset><ul>
+<li>font-style</li><br>
+<li>font-variant</li><br>
+<li>font-weight</li><br>
+<li>font-size/line-height</li><br>
+<li>font-family</li></ul></fieldset>
+<h3>Example:</h3>
+<p>use font to set several font properties to deciaration:<br>
+p.a{font:italic small-caps 20px arial sans-serf;}</p>
+</div>
+</body></html>

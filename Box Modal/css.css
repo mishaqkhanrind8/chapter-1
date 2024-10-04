@@ -1,0 +1,87 @@
+.container-fluid{color: black;
+background-color: lightcyan;
+font-size: normal;
+margin:auto 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+word-spacing: 2px;
+letter-spacing: 3px;
+font-style: italic;}
+.row{background-color:rgba(110, 87, 87, 0.5);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+}
+.link:hover{color:red;
+opacity: 1.0;}
+.link{border-radius: 10px;
+padding: 6px;
+margin: 10px auto;
+outline: solid blue;
+opacity: 0.7;
+text-decoration: wavy;
+position: absolute;
+top: 0.9rem;
+right: 1.5rem;
+background-color: aquamarine;
+color:black;}
+.navbar{padding: 5px;
+margin: 10px;}
+.strong{font-size: xx-large;
+margin: 0 10px;}
+.h1{color:deeppink;
+word-spacing: 3px;
+letter-spacing: 4px;
+text-transform: capitalize;
+text-shadow: 3px 3px blue;}
+.h2{border-radius: 20px;
+max-width: 700px;
+min-width: 350px;
+margin: 20px auto;
+color:deeppink;
+text-transform: capitalize;
+text-shadow: 3px 3px blue;}
+.ul{border-radius: 20px solid;
+max-width: 640px;
+min-width: auto;
+background-image: url(https://img.freepik.com/free-vector/pride-gradient-1_78370-282.jpg?w=740&t=st=1718210874~exp=1718211474~hmac=416a7f790accf1aa47377852064c82a4c7887721fa5b96803f3c7edabf8f162b);
+margin: 20px auto;
+padding: 20px 50px;}
+.para1{border-radius: 20px;
+max-width: 750px;
+min-width: auto;
+margin: 20px auto;
+padding: 20px 20px;
+color: blue;
+background-color: aquamarine;
+text-indent: 40px;}
+.img{border-radius: 20px;
+max-width: 300px;
+min width: auto;
+margin: 2px 70px;
+position: relative;
+center:0}
+.flexbox{display: flex;
+flex: row;
+flex-wrap: wrap;
+width: 100%;}
+.para2{background-color: aqua;
+border-radius: 20px;
+max-width: 550px;
+min-width: auto;
+margin: auto;
+padding: 20px 20px;}
+.example{border-radius: 20px;
+width:100px;
+margin:20px auto;
+color:blueviolet;
+text-transform: capitalize;
+font-size:larger;}
+.para3{background-color: aqua;
+border-radius: 20px;
+max-width: 350px;
+min-width: auto;
+margin:20px auto;
+padding:20px 20px}

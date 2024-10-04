@@ -1,0 +1,195 @@
+<!DOCTYPE html><html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border,outline, opacity</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=
+swap" >
+<link rel="stylesheet" href="./css.css">
+<link rel="stylesheet" href="../../bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+<script src="./bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!--navigation section-->
+    
+<div class="container-fluid">
+
+    <div class="row">
+            <p class="title">CSS Prictice Page</p>
+    <nav class="navbar"><a class="link0" href="https://www.w3schools.com/css/css_border.asp">CSS borders</a>
+<a  class="link1" href="https://www.w3schools.com/css/css_outline.asp">CSS outline</a>
+<a class="link2" href="https://www.w3schools.com/cssref/css3_pr_opacity.php">CSS opacity</a>
+<a class="link3" href="#">Help</a></div>
+</nav>
+
+<!--css border main page section-->
+
+<center><h1 class="h1">css border</h1></center>
+<p class="para1">the css border properties allow you to specify the style, width, and color of an element's
+border.</p>
+<h2 class="h2">border-style property</h2>
+<div class="flexbox1"><p class="para2">the border-style property specifies what kind of border to display.
+the following values are allowed:</p>
+<ul class="ul">these properties are showing below:
+<li class="1">dotted</li>
+<li class="1">dashed</li>
+<li class="2">solid</li>
+<li class="2">double</li>
+<li class="3">groove</li>
+<li class="3">ridge</li>
+<li class="4">hidden</li>
+<li class="4">none</li></ul>
+<p class="para3">the border style property can have from one to four values (for the top border, right border,
+bottom border and the left border).</p>
+<h3 class="example">example:</h3>
+<p class="para4">p.dotted{border-style:dotted;}<br>
+p.dashed{border-style:dashed;}<br>
+p.solid{border-style:solid}<br>
+p.double{border-style:double;}<br>
+p.groove{border-style:groove;}<br></p></div>
+<h2 class="h2">css border width</h2>
+<div class="flexbox2"><p class="para5">the width can set as a specific size(in px, pt, cm, em, etc) or by
+using one of the three pre-defined values thin medium, ro thick. </p>
+<h3 class="example">example:</h3>
+<p class="para6">p.one{border-style:solid;<br> border-width:5px;} </p></div>
+<h2 class="h2">css border color</h2>
+<div class="flexbox3">
+<p class="para7">the border color property is used to set the color of the four borders.</p>
+<ul class="ul2">the color can be set by:
+<li>name - specify a color name. like "red"</li>
+<li>HEX - specify a hex value. like "#ff0000"</li>
+<li>RGB - specify a RGB value. like "rbg(255.0.0)"</li>
+<li>HSL - specify a HSL value. like ("hsl100%.50%)</li>
+<li>tranparent</li>
+note: if border-color is not set. it inherits the color of the element.</ul></div>
+<h2 class="h2">css border</h2>
+<div class="flexbox4">
+<p class="para8">in css, there are also properties for specifying each of the borders (top,right,bottom and left):</p>
+<h3 class="example">example:</h3>
+<p class="para9">p.{border-top-style:dotted;<br>
+border-right-style:solid;<br>
+border-bottom-style:dotted;<br>
+border-left-style:solid;}</p></div>
+<div class="flexbox5"><p class="para10">the border-style property may be specified using one, two, three,
+or four values.<br>
+if the border-style property has four values:</p>
+<ul class="ul3">border-style: dotted solid double dashed;
+<li>top border style is dotted</li>
+<li>right border style is solid</li>
+<li>bottom border style is double</li>
+<li>left border style is dashed</li>
+if the border-style property has three values:<br>
+border-style: dotted solid double;<br>
+<li>top border is dotted</li>
+<li>right border and left are solid</li>
+<li>bottom border is double</li>
+if the border property has two values:<br>
+border-style:dotted solid;<br>
+<li>top and bottom borders are dotted</li>
+<li>right and left borders are solid</li>
+if the border-style property has one value:<br>
+border-style: dotted;<br>
+<li>all four borders are dotted</li>
+the border-style property is used in the example above.however, it also works with border-width and border-color.</ul></div>
+<p class="para11">like you saw in the previous page. there are many properties to consider when
+dealing width borders<br> to shorten the code it is also possible to specify all the individual border
+properties in one property.</p>
+<ul class="ul4">the border property is a shorthand property for the following individual border properties:
+<li>border-width</li>
+<li>border-style(required)</li>
+<li>border-color</li></ul>
+<h3 class="example">example</h3>
+<p class="para12">p{borer:5px solid red;} </p>
+<h2 class="h2">css rounded borders</h2>
+<div class="flexbox6">
+<p class="para13">the border-radius property is used t add rounde borders to an element:</p>
+<h3 class="example">example:</h3>
+<p class="para14">p{border 2px solid red;<br>
+border-redius:5px;} </p></div>
+<h2 class="h2">CSS Outline</h2>
+<div class="flexbox7">
+<p class="para15">an outline is a line that is drawn around elements.outside the borders,to make the element"
+stand out".<br>
+outline differs from borders! unlike borders, the outline is drawn outside the element's border.
+and may overlap other content. also, the outline is not a part of the element's dimensions: the element's
+total width and height is not affected by the width of the outline.</p>
+<ul class="ul5">CSS has the following outline properties:
+<li>outline-style</li>
+<li>outline-color</li>
+<li>outline-width</li>
+<li>outline-offset</li></ul></div>
+<h2 class="h2">CSS outline style</h2>
+<div class="flexbox8">
+<p class="para16">the outline-style property speicfies the style of the outline. and can have one of
+the following values</p>
+<ol class="ol1">these eight properties:
+<div class="no1"><li class="c1">dotted</li><li class="c2">dashed</li></div>
+<div class="no2"><li class="c1">solid</li><li class="c2">double</li></div>
+<div class="no3"><li class="c1">groove</li><li class="c2">ridge</li></div>
+<div class="no4"><li class="c1">hidden</li><li class="c2">none</li></div></ol></div>
+<h2 class="h2">CSS outline width</h2>
+<div class="flexbox9">
+<p class="para17">the outline width property specfiles the width of the outline and can have one of
+the following values:</p>
+<ul class="ul6"><li>thin(typically 1px)</li>
+<li>medium(typically 3px)</li>
+<li>thick(typically 5px)</li>
+a spacific size (in px, pt, cm, em,etc ) </ul>
+<h3 class="example1">example:</h3>
+<p class="para18">p.ex1{border:1px solid balck;<br>
+Outline-style:solid;} </p></div>
+<h2 class="h2">CSS outline color</h2>
+<div class="flexbox10">
+<p class="para19">the outline-color property is used to set the color of the outline. </p>
+<ul class="ul7">the color can be set by:
+<li>name - specify a color name.like "red"</li>
+<li>HEX - specify a hex value, like "#ff0000"</li>
+<li> RGB - specify a RGB value. like "rgb(255.0.0)"</li>
+<li>HSL - specify a HSL value, like "hsl(0.100%.150%)"</li>
+<li>invert - performs a color inversion(which ensures that the outline in visible.
+regardless of color background) </li></ul></div>
+<h2 class="h2">CSS outline shorthand property</h2>
+<div class="flexbox11">
+<p class="para20">the outline property is a shorthand property for setting the following
+individual outline properties:<br>
+outline-width<br>
+Outlien-style(required)<br>
+outline-color<br>
+the outline property is specified as one or three values from the list above.
+the order of the values does not matter.</p>
+<h3 class="example">example:</h3>
+<p class="para21">p.{outline: 5px solid yellow;}</p></div>
+<h2 class="h2">CSS outline offset</h2>
+<div class="flexbox11">
+<p class="para20">the outline-offset property adds space between an outline and the edge/border of an element.
+the space between an element and its outline is trasparent.</p>
+<h3 class="example">example:</h3>
+<p class="para21">p{border:1px solid black;<br>
+outline:1px solid red;<br>
+outline-offset:15px;} </p></div>
+<h2 class="h2">CSS opacity</h2>
+<div class="flex1"><p class="p1">the opacity property specifies the opacity transparency of an element.</p>
+<h3 class="h4">transparent image</h3>
+<p class="h3">the opacity property can take a value form 0.0 - 1.0. the lower the value the more transparent.</p><h3 class="ex1">example:</h3>
+<p class="p2">img{opacity: 0.5;} </p>
+<img class="img" width="200px" height="auto" src="../assest/image2.jpg.jpg" alt="your browser not support this fle formate">
+<h3 class="h4">transparent hover effect</h3>
+<p class="p3">the opacity property is often used together with the hover selector to change the opacity one mouse-over:</p>
+<h3 class="ex2">example:</h3>
+<p class="p5">img{opacity:0.5;}<br>
+img:hover{opacity:1.0;}</p>
+<h3 class="h4">transparent box</h3>
+<p class="p1">when using the opacity property to add transparency to the background of and element.
+all of its child elements inherit the same transparency. this can make the text inside a fully
+transparent element hard to read:<br><br>
+div{opacity:0.3}</p></div>
+<div class="flex2"><h3 class="h4">transparency using RGBA</h3>
+<p class="p6">if you do not want to apply opacity to child elements.like in our example above.
+use RGBA color values. the following example sets the opacity for the background color and not the text:</p>
+<p class="p7">div{background: rgba(76.175.80.0.3)<br>
+/*green background width 30% opacity*\}</p></div>
+
+</div></body></html>

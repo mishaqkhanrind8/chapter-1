@@ -1,0 +1,151 @@
+.container-fluid{background-color: rgba(0, 0, 0, 0.7);
+    /*my name ishaishaqkhdin this is commeeti */
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: larger;word-spacing: 2px;
+letter-spacing: 2px;
+margin: 5px 10px;
+padding: 4px;
+font-style: italic;}
+.row{border-radius: 10px;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 1rem;
+position: sticky;
+top: 1rem;
+margin: 10px;}
+strong{color:rgba(255, 255, 255, 0.7);
+font-size: xx-large;}
+.a:hover{color: rgba(255, 255, 255, 1.0);
+background-color: rgba(0, 255, 255, 0.5);}
+.a{border-radius: 10px;
+width: auto;
+margin: auto 5px;
+padding:5px 15px;
+color:rgba(255, 255, 255, 0.8);
+outline:2px solid white;
+background-color: rgba(0, 255, 255, 0.3);
+word-spacing: 1px;
+letter-spacing: 1px;
+text-transform: capitalize !important;
+text-decoration: wavy;}
+.b:hover{color: rgba(255, 255, 255, 1.0);
+    background-color: rgba(0, 255, 255, 0.5);}
+.b{border-radius: 10px ;
+width: auto;
+margin:2px 0;
+;padding:5px 15px;
+color:rgba(255, 255, 255, 0.8);
+background-color: rgba(0, 255, 255, 0.3);
+word-spacing: 2px;
+letter-spacing: 2px;
+outline:2px solid white;
+text-transform: capitalize;
+text-decoration: wavy;}
+.c:hover{color: rgba(255, 255, 255, 1.0);
+    background-color: rgba(0, 255, 255, 0.5);}
+.c{border-radius: 10px ;
+    width: auto;
+    margin:auto 5px;
+    ;padding:5px 15px;
+    color:rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 255, 255, 0.3);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    outline:2px solid white;
+    text-transform: capitalize;
+    text-decoration: wavy;}
+    .d:hover{color: rgba(255, 255, 255, 1.0);
+        background-color: rgba(0, 255, 255, 0.5);}
+.d{border-radius: 10px ;
+    width: auto;
+    margin:auto 0;
+    ;padding:5px 15px;
+    color:rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 255, 255, 0.3);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    outline:2px solid white;
+    text-transform: capitalize;
+    text-decoration: wavy;}
+    .e:hover{color: rgba(255, 255, 255, 1.0);
+        background-color: rgba(0, 255, 255, 0.5);}
+.e{border-radius: 10px ;
+    width: auto;
+    margin:auto 0;
+    ;padding:5px 15px;
+    color:rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 255, 255, 0.3);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    outline:2px solid white;
+    text-transform: capitalize;
+    text-decoration: wavy;}
+h1{color: rgba(255, 20, 147, 0.9);
+font-size:xx-large;
+text-transform: capitalize;
+letter-spacing: 3px;}
+
+p{text-indent: 50px;
+font-size: larger;letter-spacing: 2px;
+word-spacing: 2px;
+color: rgba(0, 0, 255, 0.7);}
+.f{border-radius: 20px;
+max-width: 500px;
+min-width: auto;
+margin: 30px auto;
+padding: 20px;
+background-color: rgba(127, 255, 212, 0.5);}
+h2,h3{color: rgba(0, 0, 255, 0.7);
+text-transform: capitalize;}
+.g{border-radius: 10px;
+max-width: 800px;
+min-width: auto;
+margin: 30px 1.5rem;}
+.h{border-radius: 10px;
+max-width: 700px;
+min-width: auto;
+margin: 20px auto;
+padding: 30px;
+color: rgba(255, 255, 0, 0.7);
+background-color: rgba(0, 128, 0, 0.5);}
+#a{border-radius: 10px;
+max-width: 900px;
+min-width: auto;
+margin: 20px auto;
+padding: 20px;}
+fieldset{border-radius: 10px;
+max-width: 600px;
+min-width: auto;
+margin: 20px auto;
+padding: 30px;
+color:rgba(0, 128, 0, 0.9);
+background-color: rgba(255, 255, 0, 0.5);
+font-weight: bold;}
+.l{border-radius: 10px;
+width:150px;
+margin: 30px auto;
+padding: 20px;}
+.z{border-radius: 10px;
+max-width: 500px;
+min-width: auto;
+margin: 30px auto;
+padding: 20px;
+background-color: rgba(127, 255, 212, 0.5);
+color: blueviolet;}
+.widthHeight{border-radius: 20px;
+max-width:380px;
+min-width:auto;
+height: 300px;
+margin :30px auto;
+padding: 30px ;
+background-image:url(../HTML/assest/123.jpg);
+ba}
+.img1{/*opacity: 0.5; */
+/*filter: blur(20ox);*/
+border-radius: 2px;
+max-width: 700px;
+min-width: auto;
+margin: 20px auto;
+filter: brightness(80%);}

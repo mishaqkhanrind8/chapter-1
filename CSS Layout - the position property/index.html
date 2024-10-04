@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html><head><title>CSS Layout - The position property</title>
+<link rel="stylesheet" href="./css.css"></head>
+<body>
+    
+    
+        <div class="row">    
+            <nav class="nav"><strong>Position & z-index</strong>
+          <a class="link" href="https://www.w3schools.com/css/css_positioning.asp">for help click here</a>
+        </nav></div>
+
+        <div class="container-fluid">
+
+            <center><h1 class="h1">position & z-index</h1></center>
+<h2 class="h2">CSS position property</h2>
+<div class="flexbox1"><p class="p1">the position poperty specifies the type of positioning method used for an
+element.</p>
+<ol class="ol1">there are five different position values:
+<li>static</li><li>reletive</li><li>fixed</li><li>absolute</li><li>sticky</li></ol>
+<p class="p2">elements are then positioned using the top, bottom, left, and right properties. however these
+properties will not work unless the position property is set first. they also work differently depanding
+on the position value.</p></div>
+
+<h2 class="h2">position static</h2>
+<div class="flexbox1">
+<p class="p1">HTML elements are positioned static by default.<br>
+static positioned elements are not affected by the top,bottom,left,and right properties.<br>
+an element with position:static:is not positioned in any spacial way. it is always positioned according to
+the normal flow of the page:</p>
+</div>
+<h2 class="h2">position relative</h2>
+<div class="relative">
+    <p class="p1">an element with position: relative is positioned relative to its normal
+position.<br>
+setting the top,right,bottom,and left properties of a relatively positioned element will cause it to be
+adjusted away form its normal positon.<br>
+other content wil not be adjusted to fit into any gap left by the element.</p>
+<h3>example:</h3>
+<p class="p2">div.relative{position: relative: left: 30px}</p></div>
+<h2 class="h2">position fixed</h2>
+<div class="relative"><p class="p1"> an element with position fixed is positioned relative to the 
+viewprot which meains it always stays in the same place even it hte page is scrolled. the top,righ,
+bottom and left properties are used to position the element.<br>
+a fixed element does not leave a gap in the page where it would normally have been located.</p>
+<h3>example</h3>
+<p class="p2">div.fixed{position: fixed: bottom: 0; right: 0;}</p></div>
+<div class="fixed"><h3 class="h3">my name is ishaq khan rind<br>
+example of fixed</h3></div>
+<h2 class="h2">position absolute</h2>
+<div class="parant"><p class="para1">an element with position:absolute is positioned relative to the
+nearest positioned ancestor(instead of positioned relative to the viewport.like fixed). </p>
+<div class="relative1"><p class="para2">however if and absolute positioned element has no positioned
+ancestors. it uses the document body. and moves along with page scrolling.</p></div>
+<div class="child"><p class="para3">note: absolute positioned element will remodved form the normal flow.
+and overlapge elements.</p>
+<h4 class="head3">example:</h4>
+<p class="para4">.parent{position: relative: width: 200px; height: 200px}<br>
+.child{position absolute: top:0; left: 0;} </p></div></div>
+<h2 class="h2">position sticky</h2>
+<div class="sticky"><p class="para5">an element with position sticky is positioned based on the user's scroll
+position.</p>
+<p class="para6">a sticky element toggles between relative and fixed. depanding on the scroll position.
+it is positioned relative until a given offset position is met in the viewport. tnen it sticks in
+place(like position fixed).</p>
+<h4 class="h4">example:</h4>
+<p class="para7">nav{position:sticky;<br>
+top:0;} </p></div>
+<h2 class="h2">z-index</h2>
+<div class="z-index"><p class="para5">when elements are positioned they cn overlap other elements.<br>
+the z-index property specifies the stack order of an element(which element should be placed in front of,
+or behind. the others).</p>
+<p class="para6">an element can have a positive or negative stack order.</p>
+<h4 class="h4">example:</h4>
+<p class="para7">.box{position:relative:<br>
+z-index:1;} </p></div>
+<h2 class="h2">without z-index</h2>
+<div class="z-index"><p class="para7">if two positioned elements overlap each other without a z-index
+specified the element defined last in the HTML code will be shown on top</p></div>
+
+</div>
+</body></html>

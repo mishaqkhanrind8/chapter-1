@@ -1,0 +1,41 @@
+.container-fluid{background-color: lightblue;letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: 10px;
+    padding: 1rem;
+color: black;background-image:url(../HTML/assest/laptop4.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: larger;
+font-weight: normal;
+font-style: italic;}
+h1{color: deeppink;
+    font-size:xx-large;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 3px blue;
+}h2,h3{color: blue;
+text-transform: capitalize;
+letter-spacing: 3px;}.text{color: red;
+background-color: aquamarine;}fieldset{color: blue;
+background-color: aquamarine;}
+#text-align{text-align:center;}
+#text-ali{
+    text-align:right;}
+    p{direction: ltr;text-indent: 50px;
+    unicode-bidi: bidi-override;}img.d{vertical-align: text-top;}
+    img.c{vertical-align: text-bottom;}h3{
+    text-decoration-line: underline;}.price{text-decoration-line:line-through ;
+    text-decoration-color: red;}h4{text-decoration-line: underline;
+    text-decoration-color: blue;}.imran-khan{text-decoration-line: underline;
+    text-decoration-style: dashed;}.pakistan{text-transform: capitalize;}
+    .text-indent{
+        max-width: 100%;
+        min-width: auto;
+        text-indent: 10px;
+    text-transform: capitalize;
+letter-spacing: 1px;
+line-height: 1;
+word-spacing: 1px;
+white-space: pre;}.tree{text-shadow: 2px 2px 5px red;}
